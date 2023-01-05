@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImg from "../../assets/logo.svg";
+import { Logo } from '../Logo';
 import { HeaderContainer } from './styles';
 interface HeaderProps {
 
@@ -8,7 +8,7 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = () => {
   return (
     <HeaderContainer>
-      <img src={logoImg} alt="Todo" />
+      <Logo />
     </HeaderContainer>
   );
 };
