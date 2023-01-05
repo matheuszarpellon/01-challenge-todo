@@ -10,7 +10,9 @@ Durante este desafio, utilizamos os conceitos básicos do React desenvolvendo do
 * Vite
 * TypeScript
 * styled-components
+* Phosphor-Icons
 * LocalStorage
+* Vercel
 
 <br />
 
